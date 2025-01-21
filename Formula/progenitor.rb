@@ -5,10 +5,10 @@ class Progenitor < Formula
 
   if OS.mac?
     url "https://github.com/Ctorum/progenitor/releases/download/v0.2.0/progenitor-0.2.0.tar.gz"
-    sha256 "504a72ae4892708b5a06360566430c864337cff7f40c3d74ef8dd80e3faec5aa"
+    sha256 "904fb3c605ef19e009812221f56721c9c071c1315d0ac83d56503938ef69dccc"
   elsif OS.linux?
     url "https://github.com/Ctorum/progenitor/releases/download/v0.2.0/progenitor-0.2.0.tar.gz"
-    sha256 "504a72ae4892708b5a06360566430c864337cff7f40c3d74ef8dd80e3faec5aa"
+    sha256 "904fb3c605ef19e009812221f56721c9c071c1315d0ac83d56503938ef69dccc"
   end
 
   def install
