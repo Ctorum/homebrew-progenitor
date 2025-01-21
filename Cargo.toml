@@ -1,0 +1,16 @@
+[package]
+name = "progenitor"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.26", features = ["derive"] }
+colored = "3.0.0"
+
+[[bin]]
+name = "progenitor"
+path = "src/main.rs"
+
+[[bin]]
+name = "pgen"
+path = "src/main.rs"
