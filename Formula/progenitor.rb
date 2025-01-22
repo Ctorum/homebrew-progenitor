@@ -1,7 +1,7 @@
 class Progenitor < Formula
   desc "Project template generator CLI tool"
   homepage "https://github.com/Ctorum/progenitor"
-  version "0.2.1" 
+  version "0.2.4" 
 
   if OS.mac?
     url "https://github.com/Ctorum/progenitor/releases/download/v0.2.4/progenitor-0.2.4.tar.gz"
