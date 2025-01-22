@@ -2,14 +2,8 @@ class Progenitor < Formula
   desc "Project template generator CLI tool"
   homepage "https://github.com/Ctorum/progenitor"
   version "0.2.4" 
-
-  if OS.mac?
-    url "https://github.com/Ctorum/progenitor/releases/download/v0.2.4/progenitor-0.2.4.tar.gz"
-    sha256 "7abedc637b94ca59c08afae33b35bc794fae411d6b573468b44d5ad3d47cc10f"
-  elsif OS.linux?
-    url "https://github.com/Ctorum/progenitor/releases/download/v0.2.4/progenitor-0.2.4.tar.gz"
-    sha256 "7abedc637b94ca59c08afae33b35bc794fae411d6b573468b44d5ad3d47cc10f"
-  end
+  url "https://github.com/Ctorum/progenitor/releases/download/v0.2.5/progenitor-0.2.5.tar.gz"
+  sha256 "8c6e60f6809201ad3f051bfa6b9a56c1434b4055b097bed91d20dcc9fd6d2ca3"
 
   def install
     bin.install "progenitor"
